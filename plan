@@ -1,0 +1,10 @@
+每个网站单独建一个spider,使用同一个item类
+爬取后先检验，然后放item
+由pipelines放redis(或数据库)
+item:
+   ip(host:port)
+   time
+存入ip_pool/first_queue
+有一个方法统一管理所有spider
+
+
